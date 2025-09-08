@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Forms\Backups\BackupandRestoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Employees\EmployeesFrom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -11,8 +14,37 @@
     <Compile Update="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\ItemAssignment\ItemAssignmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ItemAssignment\ItemAssignmentFormRecycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ItemAssignment\ItemAssignmentOperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Items\ItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Items\ItemsOperationsFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Items\ItemsRecycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Reports\EmployeesNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Reports\ReportDesignerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Data\DataSet1.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
 </Project>

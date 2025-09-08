@@ -40,13 +40,20 @@ public class UnitOfWork : IUnitOfWork
 
     private void EnsureIndexes()
     {
-        var employeesCollection = _database.GetCollection<Employee>("Employees");
+        try
+        {
+            var employeesCollection = _database.GetCollection<Employee>("Employees");
+            var indexOptions = new CreateIndexOptions { Unique = true };
+            var indexDefinition = Builders<Employee>.IndexKeys.Ascending(e => e.NationalId);
+            var indexModel = new CreateIndexModel<Employee>(indexDefinition, indexOptions);
 
-        var indexOptions = new CreateIndexOptions { Unique = true };
-        var indexDefinition = Builders<Employee>.IndexKeys.Ascending(e => e.NationalID);
-        var indexModel = new CreateIndexModel<Employee>(indexDefinition, indexOptions);
-
-        employeesCollection.Indexes.CreateOne(indexModel);
+            employeesCollection.Indexes.CreateOne(indexModel);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+           // throw;
+        }
     }
 
     public async Task CommitAsync() => await Task.CompletedTask;

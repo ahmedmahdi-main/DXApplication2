@@ -161,3 +161,14 @@ C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows
 C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Employees.EmployeesFrom.resources
 C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Form1.resources
 C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Employees.EmployeesOperationsForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.sourcelink.json
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Items.ItemsForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Items.ItemsOperationsFrom.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.ItemAssignment.ItemAssignmentForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.ItemAssignment.ItemAssignmentOperationsForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Reports.EmployeesNameForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\bin\Debug\net9.0-windows7.0\MoreLinq.dll
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.ItemAssignment.ItemAssignmentFormRecycle.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Backups.BackupandRestoreForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Reports.ReportDesignerForm.resources
+C:\Users\MSI\source\repos\DXApplication2\DXApplication2\obj\Debug\net9.0-windows7.0\DXApplication2.Forms.Items.ItemsRecycle.resources

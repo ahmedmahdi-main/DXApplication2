@@ -100,19 +100,21 @@
             dataLayoutControl1.DataSource = employeeBindingSource;
             dataLayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             dataLayoutControl1.Location = new System.Drawing.Point(0, 39);
+            dataLayoutControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             dataLayoutControl1.Name = "dataLayoutControl1";
             dataLayoutControl1.OptionsView.RightToLeftMirroringApplied = true;
             dataLayoutControl1.Root = Root;
-            dataLayoutControl1.Size = new System.Drawing.Size(761, 359);
+            dataLayoutControl1.Size = new System.Drawing.Size(823, 363);
             dataLayoutControl1.TabIndex = 0;
             dataLayoutControl1.Text = "dataLayoutControl1";
             // 
             // NameTextEdit
             // 
             NameTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "Name", true));
-            NameTextEdit.Location = new System.Drawing.Point(14, 50);
+            NameTextEdit.Location = new System.Drawing.Point(12, 48);
+            NameTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             NameTextEdit.Name = "NameTextEdit";
-            NameTextEdit.Size = new System.Drawing.Size(618, 32);
+            NameTextEdit.Size = new System.Drawing.Size(687, 32);
             NameTextEdit.StyleController = dataLayoutControl1;
             NameTextEdit.TabIndex = 4;
             // 
@@ -123,45 +125,50 @@
             // DepartmentTextEdit
             // 
             DepartmentTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "Department", true));
-            DepartmentTextEdit.Location = new System.Drawing.Point(14, 86);
+            DepartmentTextEdit.Location = new System.Drawing.Point(12, 84);
+            DepartmentTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             DepartmentTextEdit.Name = "DepartmentTextEdit";
-            DepartmentTextEdit.Size = new System.Drawing.Size(618, 32);
+            DepartmentTextEdit.Size = new System.Drawing.Size(687, 32);
             DepartmentTextEdit.StyleController = dataLayoutControl1;
             DepartmentTextEdit.TabIndex = 5;
             // 
             // PositionTextEdit
             // 
             PositionTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "Position", true));
-            PositionTextEdit.Location = new System.Drawing.Point(14, 122);
+            PositionTextEdit.Location = new System.Drawing.Point(12, 120);
+            PositionTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             PositionTextEdit.Name = "PositionTextEdit";
-            PositionTextEdit.Size = new System.Drawing.Size(618, 32);
+            PositionTextEdit.Size = new System.Drawing.Size(687, 32);
             PositionTextEdit.StyleController = dataLayoutControl1;
             PositionTextEdit.TabIndex = 6;
             // 
             // NationalIDTextEdit
             // 
             NationalIDTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "NationalID", true));
-            NationalIDTextEdit.Location = new System.Drawing.Point(14, 158);
+            NationalIDTextEdit.Location = new System.Drawing.Point(12, 156);
+            NationalIDTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             NationalIDTextEdit.Name = "NationalIDTextEdit";
-            NationalIDTextEdit.Size = new System.Drawing.Size(618, 32);
+            NationalIDTextEdit.Size = new System.Drawing.Size(687, 32);
             NationalIDTextEdit.StyleController = dataLayoutControl1;
             NationalIDTextEdit.TabIndex = 7;
             // 
             // PhoneTextEdit
             // 
             PhoneTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "Phone", true));
-            PhoneTextEdit.Location = new System.Drawing.Point(14, 194);
+            PhoneTextEdit.Location = new System.Drawing.Point(12, 192);
+            PhoneTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             PhoneTextEdit.Name = "PhoneTextEdit";
-            PhoneTextEdit.Size = new System.Drawing.Size(618, 32);
+            PhoneTextEdit.Size = new System.Drawing.Size(687, 32);
             PhoneTextEdit.StyleController = dataLayoutControl1;
             PhoneTextEdit.TabIndex = 8;
             // 
             // EmailTextEdit
             // 
             EmailTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "Email", true));
-            EmailTextEdit.Location = new System.Drawing.Point(14, 230);
+            EmailTextEdit.Location = new System.Drawing.Point(12, 228);
+            EmailTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             EmailTextEdit.Name = "EmailTextEdit";
-            EmailTextEdit.Size = new System.Drawing.Size(618, 32);
+            EmailTextEdit.Size = new System.Drawing.Size(687, 32);
             EmailTextEdit.StyleController = dataLayoutControl1;
             EmailTextEdit.TabIndex = 9;
             // 
@@ -169,7 +176,8 @@
             // 
             IdTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", employeeBindingSource, "Id", true));
             IdTextEdit.EditValue = "0";
-            IdTextEdit.Location = new System.Drawing.Point(14, 14);
+            IdTextEdit.Location = new System.Drawing.Point(12, 12);
+            IdTextEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             IdTextEdit.Name = "IdTextEdit";
             IdTextEdit.Properties.Appearance.Options.UseTextOptions = true;
             IdTextEdit.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
@@ -178,16 +186,17 @@
             IdTextEdit.Properties.MaskSettings.Set("mask", "N0");
             IdTextEdit.Properties.ReadOnly = true;
             IdTextEdit.Properties.UseReadOnlyAppearance = false;
-            IdTextEdit.Size = new System.Drawing.Size(618, 32);
+            IdTextEdit.Size = new System.Drawing.Size(687, 32);
             IdTextEdit.StyleController = dataLayoutControl1;
             IdTextEdit.TabIndex = 10;
             // 
             // simpleButton1
             // 
             simpleButton1.ImageOptions.SvgImage = Properties.Resources.Save;
-            simpleButton1.Location = new System.Drawing.Point(14, 266);
+            simpleButton1.Location = new System.Drawing.Point(12, 264);
+            simpleButton1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             simpleButton1.Name = "simpleButton1";
-            simpleButton1.Size = new System.Drawing.Size(733, 44);
+            simpleButton1.Size = new System.Drawing.Size(799, 44);
             simpleButton1.StyleController = dataLayoutControl1;
             simpleButton1.TabIndex = 11;
             simpleButton1.Text = "حفظ";
@@ -199,7 +208,7 @@
             Root.GroupBordersVisible = false;
             Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] { layoutControlGroup1 });
             Root.Name = "Root";
-            Root.Size = new System.Drawing.Size(761, 359);
+            Root.Size = new System.Drawing.Size(823, 363);
             Root.TextVisible = false;
             // 
             // layoutControlGroup1
@@ -209,14 +218,14 @@
             layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] { ItemForName, ItemForDepartment, ItemForPosition, ItemForNationalID, ItemForPhone, ItemForEmail, ItemForId, layoutControlItem1 });
             layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             layoutControlGroup1.Name = "autoGeneratedGroup0";
-            layoutControlGroup1.Size = new System.Drawing.Size(737, 335);
+            layoutControlGroup1.Size = new System.Drawing.Size(803, 343);
             // 
             // ItemForName
             // 
             ItemForName.Control = NameTextEdit;
             ItemForName.Location = new System.Drawing.Point(0, 36);
             ItemForName.Name = "ItemForName";
-            ItemForName.Size = new System.Drawing.Size(737, 36);
+            ItemForName.Size = new System.Drawing.Size(803, 36);
             ItemForName.Text = "الاسم";
             ItemForName.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -225,7 +234,7 @@
             ItemForDepartment.Control = DepartmentTextEdit;
             ItemForDepartment.Location = new System.Drawing.Point(0, 72);
             ItemForDepartment.Name = "ItemForDepartment";
-            ItemForDepartment.Size = new System.Drawing.Size(737, 36);
+            ItemForDepartment.Size = new System.Drawing.Size(803, 36);
             ItemForDepartment.Text = "مكان العمل";
             ItemForDepartment.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -234,7 +243,7 @@
             ItemForPosition.Control = PositionTextEdit;
             ItemForPosition.Location = new System.Drawing.Point(0, 108);
             ItemForPosition.Name = "ItemForPosition";
-            ItemForPosition.Size = new System.Drawing.Size(737, 36);
+            ItemForPosition.Size = new System.Drawing.Size(803, 36);
             ItemForPosition.Text = "المنصب";
             ItemForPosition.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -243,7 +252,7 @@
             ItemForNationalID.Control = NationalIDTextEdit;
             ItemForNationalID.Location = new System.Drawing.Point(0, 144);
             ItemForNationalID.Name = "ItemForNationalID";
-            ItemForNationalID.Size = new System.Drawing.Size(737, 36);
+            ItemForNationalID.Size = new System.Drawing.Size(803, 36);
             ItemForNationalID.Text = "الرقم الوظيفي";
             ItemForNationalID.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -252,7 +261,7 @@
             ItemForPhone.Control = PhoneTextEdit;
             ItemForPhone.Location = new System.Drawing.Point(0, 180);
             ItemForPhone.Name = "ItemForPhone";
-            ItemForPhone.Size = new System.Drawing.Size(737, 36);
+            ItemForPhone.Size = new System.Drawing.Size(803, 36);
             ItemForPhone.Text = "رقم الهاتف";
             ItemForPhone.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -261,7 +270,7 @@
             ItemForEmail.Control = EmailTextEdit;
             ItemForEmail.Location = new System.Drawing.Point(0, 216);
             ItemForEmail.Name = "ItemForEmail";
-            ItemForEmail.Size = new System.Drawing.Size(737, 36);
+            ItemForEmail.Size = new System.Drawing.Size(803, 36);
             ItemForEmail.Text = "الايميل";
             ItemForEmail.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -270,7 +279,7 @@
             ItemForId.Control = IdTextEdit;
             ItemForId.Location = new System.Drawing.Point(0, 0);
             ItemForId.Name = "ItemForId";
-            ItemForId.Size = new System.Drawing.Size(737, 36);
+            ItemForId.Size = new System.Drawing.Size(803, 36);
             ItemForId.Text = "ت";
             ItemForId.TextSize = new System.Drawing.Size(100, 26);
             // 
@@ -279,7 +288,7 @@
             layoutControlItem1.Control = simpleButton1;
             layoutControlItem1.Location = new System.Drawing.Point(0, 252);
             layoutControlItem1.Name = "layoutControlItem1";
-            layoutControlItem1.Size = new System.Drawing.Size(737, 83);
+            layoutControlItem1.Size = new System.Drawing.Size(803, 91);
             layoutControlItem1.TextVisible = false;
             // 
             // barManager1
@@ -342,16 +351,16 @@
             barDockControlTop.Location = new System.Drawing.Point(0, 0);
             barDockControlTop.Manager = barManager1;
             barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlTop.Size = new System.Drawing.Size(761, 39);
+            barDockControlTop.Size = new System.Drawing.Size(823, 39);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            barDockControlBottom.Location = new System.Drawing.Point(0, 398);
+            barDockControlBottom.Location = new System.Drawing.Point(0, 402);
             barDockControlBottom.Manager = barManager1;
             barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlBottom.Size = new System.Drawing.Size(761, 37);
+            barDockControlBottom.Size = new System.Drawing.Size(823, 37);
             // 
             // barDockControlLeft
             // 
@@ -360,16 +369,16 @@
             barDockControlLeft.Location = new System.Drawing.Point(0, 39);
             barDockControlLeft.Manager = barManager1;
             barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlLeft.Size = new System.Drawing.Size(0, 359);
+            barDockControlLeft.Size = new System.Drawing.Size(0, 363);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            barDockControlRight.Location = new System.Drawing.Point(761, 39);
+            barDockControlRight.Location = new System.Drawing.Point(823, 39);
             barDockControlRight.Manager = barManager1;
             barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlRight.Size = new System.Drawing.Size(0, 359);
+            barDockControlRight.Size = new System.Drawing.Size(0, 363);
             // 
             // barButtonItem2
             // 
@@ -413,12 +422,14 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(761, 435);
+            ClientSize = new System.Drawing.Size(823, 439);
             Controls.Add(dataLayoutControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
             Controls.Add(barDockControlBottom);
             Controls.Add(barDockControlTop);
+            Font = new System.Drawing.Font("Times New Roman", 13.8F);
+            IconOptions.SvgImage = Properties.Resources.AddFriend;
             Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             MaximizeBox = false;
             MinimizeBox = false;

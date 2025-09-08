@@ -18,11 +18,16 @@ public static class PublicMessages
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning),
             MessageType.Error => XtraMessageBox.Show(message + "حدث خطا في تنفيذ العملية", "تحذير",
                 MessageBoxButtons.OK, MessageBoxIcon.Error),
+            MessageType.Restore => XtraMessageBox.Show(message + "تم الاستعادة بنجاح", "استعادة",
+                MessageBoxButtons.OK, MessageBoxIcon.Information),
             MessageType.Exception => XtraMessageBox.Show(message, "تحذير", MessageBoxButtons.OK, MessageBoxIcon.Error),
             MessageType.Warning => XtraMessageBox.Show(message, "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Asterisk),
             MessageType.Custome => XtraMessageBox.Show(message, "توضيح", MessageBoxButtons.OK, MessageBoxIcon.Asterisk),
             MessageType.PermissionDenied => XtraMessageBox.Show(message + "لا تمتلك صلاحية لهذا الامر", "تنبيه",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk),
+                        MessageType.NothingToUpdate => XtraMessageBox.Show(message + "لا يوجد شيء لتحديثه", "تنبيه",
+                MessageBoxButtons.OK, MessageBoxIcon.Asterisk),
+
             _ => throw new ArgumentOutOfRangeException(nameof(messageType), messageType, null)
         };
     }
@@ -37,5 +42,7 @@ public enum MessageType
     Confirmation,
     Custome,
     PermissionDenied,
-    Exception
+    Exception,
+    Restore,
+    NothingToUpdate
 }

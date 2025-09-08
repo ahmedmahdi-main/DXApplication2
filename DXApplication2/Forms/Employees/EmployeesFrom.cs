@@ -3,13 +3,12 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DXApplication2.Data;
 using DXApplication2.DataAccess;
 using DXApplication2.Services;
 
 namespace DXApplication2.Forms.Employees
 {
-    public partial class EmployeesFrom : DevExpress.XtraEditors.XtraForm
+    public partial class EmployeesFrom : XtraForm
     {
         private readonly UnitOfWork _unitOfWork;
 
@@ -37,18 +36,7 @@ namespace DXApplication2.Forms.Employees
         {
             try
             {
-                try
-                {
-                    var data = DemoData.employees;
-                    foreach (var employee in data)
-                    {
-                        await _unitOfWork.EmployeesRepository.AddAsync(employee);
-                    }
-                }
-                catch (Exception exception)
-                {
-                    Console.WriteLine(exception);
-                }
+                
 
                 var employees = await _unitOfWork.EmployeesRepository.GetAllAsync();
                 gridControl1.DataSource = employees.ToList();
@@ -82,17 +70,16 @@ namespace DXApplication2.Forms.Employees
         {
             try
             {
-                var EmployeeId = (Convert.ToString(gridView1.GetFocusedRowCellValue("ULID")));
+                var employeeId = (Convert.ToString(gridView1.GetFocusedRowCellValue("Ulid")));
 
-                var officialLetter = await _unitOfWork.EmployeesRepository.GetByIdAsync(EmployeeId);
-
+                var officialLetter = await _unitOfWork.EmployeesRepository.GetByIdAsync(employeeId);
 
                 if (officialLetter == null) return;
                 switch (e.Button.Tag.ToString())
                 {
                     case "btn_edit":
                     {
-                        var frm = new EmployeesOperationsForm() { EmployeeId = EmployeeId };
+                        var frm = new EmployeesOperationsForm { EmployeeId = employeeId };
                         frm.ShowDialog();
                         break;
                     }
@@ -101,7 +88,7 @@ namespace DXApplication2.Forms.Employees
                         if (XtraMessageBox.Show("هل تريد الحذف ؟", "", MessageBoxButtons.YesNo,
                                 MessageBoxIcon.Question) == DialogResult.Yes)
                         {
-                            await _unitOfWork.EmployeesRepository.DeleteAsync(EmployeeId);
+                            await _unitOfWork.EmployeesRepository.DeleteAsync(employeeId);
                             PublicMessages.Message(MessageType.Delete);
                         }
 

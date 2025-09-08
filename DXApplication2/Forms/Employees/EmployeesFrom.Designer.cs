@@ -84,7 +84,7 @@
             gridControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             gridControl1.Name = "gridControl1";
             gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] { repositoryItemButtonEdit1 });
-            gridControl1.Size = new System.Drawing.Size(1287, 306);
+            gridControl1.Size = new System.Drawing.Size(1289, 309);
             gridControl1.TabIndex = 0;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             // 
@@ -111,7 +111,7 @@
             // 
             // colULID
             // 
-            colULID.FieldName = "ULID";
+            colULID.FieldName = "Ulid";
             colULID.MinWidth = 24;
             colULID.Name = "colULID";
             colULID.Width = 95;
@@ -165,7 +165,7 @@
             // colNationalID
             // 
             colNationalID.Caption = "الرقم الوظيفي";
-            colNationalID.FieldName = "NationalID";
+            colNationalID.FieldName = "NationalId";
             colNationalID.MinWidth = 24;
             colNationalID.Name = "colNationalID";
             colNationalID.OptionsColumn.AllowEdit = false;
@@ -276,16 +276,16 @@
             barDockControlTop.Location = new System.Drawing.Point(0, 0);
             barDockControlTop.Manager = barManager1;
             barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlTop.Size = new System.Drawing.Size(1287, 39);
+            barDockControlTop.Size = new System.Drawing.Size(1289, 39);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            barDockControlBottom.Location = new System.Drawing.Point(0, 345);
+            barDockControlBottom.Location = new System.Drawing.Point(0, 348);
             barDockControlBottom.Manager = barManager1;
             barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlBottom.Size = new System.Drawing.Size(1287, 37);
+            barDockControlBottom.Size = new System.Drawing.Size(1289, 37);
             // 
             // barDockControlLeft
             // 
@@ -294,16 +294,16 @@
             barDockControlLeft.Location = new System.Drawing.Point(0, 39);
             barDockControlLeft.Manager = barManager1;
             barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlLeft.Size = new System.Drawing.Size(0, 306);
+            barDockControlLeft.Size = new System.Drawing.Size(0, 309);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            barDockControlRight.Location = new System.Drawing.Point(1287, 39);
+            barDockControlRight.Location = new System.Drawing.Point(1289, 39);
             barDockControlRight.Manager = barManager1;
             barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            barDockControlRight.Size = new System.Drawing.Size(0, 306);
+            barDockControlRight.Size = new System.Drawing.Size(0, 309);
             // 
             // barButtonItem2
             // 
@@ -347,12 +347,13 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1287, 382);
+            ClientSize = new System.Drawing.Size(1289, 385);
             Controls.Add(gridControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
             Controls.Add(barDockControlBottom);
             Controls.Add(barDockControlTop);
+            Font = new System.Drawing.Font("Times New Roman", 13.8F);
             Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             Name = "EmployeesFrom";
             RightToLeft = System.Windows.Forms.RightToLeft.Yes;

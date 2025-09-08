@@ -34,7 +34,7 @@ namespace DXApplication2.Forms.Employees
                     NameTextEdit.Text = employee.Name;
                     DepartmentTextEdit.Text = employee.Department;
                     PositionTextEdit.Text = employee.Position;
-                    NationalIDTextEdit.Text = employee.NationalID;
+                    NationalIDTextEdit.Text = employee.NationalId;
                     PhoneTextEdit.Text = employee.Phone;
                     EmailTextEdit.Text = employee.Email;
                 }
@@ -70,7 +70,7 @@ namespace DXApplication2.Forms.Employees
             _employee.Name = NameTextEdit.Text.Trim();
             _employee.Department = DepartmentTextEdit.Text.Trim();
             _employee.Position = PositionTextEdit.Text.Trim();
-            _employee.NationalID = NationalIDTextEdit.Text.Trim();
+            _employee.NationalId = NationalIDTextEdit.Text.Trim();
             _employee.Phone = PhoneTextEdit.Text.Trim();
             _employee.Email = EmailTextEdit.Text.Trim();
 
@@ -88,11 +88,9 @@ namespace DXApplication2.Forms.Employees
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(NationalIDTextEdit.Text))
-            {
-                PublicMessages.Message(MessageType.Warning, "الرجاء إدخال الرقم الوظيفي للموظف.");
-                return false;
-            }
+            if (!string.IsNullOrWhiteSpace(NationalIDTextEdit.Text)) return true;
+            PublicMessages.Message(MessageType.Warning, "الرجاء إدخال الرقم الوظيفي للموظف.");
+            return false;
             // if (string.IsNullOrWhiteSpace(PhoneTextEdit.Text))
             // {
             //     PublicMessages.Message(MessageType.Warning, "الرجاء إدخال رقم هاتف الموظف.");
@@ -108,7 +106,6 @@ namespace DXApplication2.Forms.Employees
             //     PublicMessages.Message(MessageType.Warning, "الرجاء إدخال وظيفة الموظف.");
             //     return false;
             // }
-            return true;
         }
         private async void simpleButton1_Click(object sender, EventArgs e)
         {
@@ -122,14 +119,15 @@ namespace DXApplication2.Forms.Employees
                 if (string.IsNullOrWhiteSpace(EmployeeId))
                 {
                     await _unitOfWork.EmployeesRepository.AddAsync(_employee);
-                    PublicMessages.Message(MessageType.Save, "تم إضافة الموظف بنجاح.");
+                   
                 }
                 else
                 {
-                    _employee.ULID = EmployeeId;
+                    _employee.Ulid = EmployeeId;
                     await _unitOfWork.EmployeesRepository.BulkSaveAsync(new List<Employee> { _employee });
-                    PublicMessages.Message(MessageType.Save, "تم تحديث بيانات الموظف بنجاح.");
+                   
                 }
+                PublicMessages.Message(MessageType.Save);
                 ClearEmployeeData();
             }
             catch (Exception ex)

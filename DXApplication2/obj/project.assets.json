@@ -1452,6 +1452,19 @@
           }
         }
       },
+      "morelinq/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -3286,6 +3299,34 @@
         "packageIcon.png"
       ]
     },
+    "morelinq/4.4.0": {
+      "sha512": "QX3bsK9oFeUXk8tFsc9NkI6NnCr8Ar/ex027p+ZZ/jdLCdX2RlryDtxUqZW5j45NVwn4E4Z4hzupsoMQd6Yxtg==",
+      "type": "package",
+      "path": "morelinq/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "README.md",
+        "lib/net6.0/MoreLinq.dll",
+        "lib/net6.0/MoreLinq.pdb",
+        "lib/net6.0/MoreLinq.xml",
+        "lib/net8.0/MoreLinq.dll",
+        "lib/net8.0/MoreLinq.pdb",
+        "lib/net8.0/MoreLinq.xml",
+        "lib/net9.0/MoreLinq.dll",
+        "lib/net9.0/MoreLinq.pdb",
+        "lib/net9.0/MoreLinq.xml",
+        "lib/netstandard2.0/MoreLinq.dll",
+        "lib/netstandard2.0/MoreLinq.pdb",
+        "lib/netstandard2.0/MoreLinq.xml",
+        "lib/netstandard2.1/MoreLinq.dll",
+        "lib/netstandard2.1/MoreLinq.pdb",
+        "lib/netstandard2.1/MoreLinq.xml",
+        "morelinq.4.4.0.nupkg.sha512",
+        "morelinq.nuspec"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -4170,7 +4211,8 @@
     "net9.0-windows7.0": [
       "DevExpress.Win.BonusSkins >= 25.1.3",
       "DevExpress.Win.Design >= 25.1.3",
-      "MongoDB.Driver >= 3.4.2"
+      "MongoDB.Driver >= 3.4.2",
+      "morelinq >= 4.4.0"
     ]
   },
   "packageFolders": {
@@ -4239,6 +4281,10 @@
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[3.4.2, )"
+          },
+          "morelinq": {
+            "target": "Package",
+            "version": "[4.4.0, )"
           }
         },
         "imports": [

@@ -2,8 +2,6 @@
 
 public enum ItemCondition
 {
-    جديدة,      // New
-    جيدة,       // Good
-    متوسطة,     // Fair
-    تالفة       // Damaged
+    جديدة, // New
+    مناقلة,
 }

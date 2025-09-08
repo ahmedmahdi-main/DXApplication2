@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZwCj004Ut+8=",
+  "dgSpecHash": "rbq6/XrlO/w=",
   "success": true,
   "projectFilePath": "C:\\Users\\MSI\\source\\repos\\DXApplication2\\DXApplication2\\DXApplication2.csproj",
   "expectedPackageFiles": [
@@ -71,6 +71,7 @@
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\mongodb.bson\\3.4.2\\mongodb.bson.3.4.2.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\mongodb.driver\\3.4.2\\mongodb.driver.3.4.2.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\morelinq\\4.4.0\\morelinq.4.4.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

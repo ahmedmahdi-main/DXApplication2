@@ -1116,6 +1116,14 @@
           }
         }
       },
+      "morelinq/4.4.0": {
+        "runtime": {
+          "lib/net9.0/MoreLinq.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -2066,6 +2074,13 @@
       "sha512": "sha512-uB2VlLZO4kGvn499Xbdtu/BfAX6wMqpXlWhDonPGGzyCD+Cho+g0M5XIBjPh/8EFrWmBMKvRamW+AWFjgxx+pw==",
       "path": "mongodb.driver/3.4.2",
       "hashPath": "mongodb.driver.3.4.2.nupkg.sha512"
+    },
+    "morelinq/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QX3bsK9oFeUXk8tFsc9NkI6NnCr8Ar/ex027p+ZZ/jdLCdX2RlryDtxUqZW5j45NVwn4E4Z4hzupsoMQd6Yxtg==",
+      "path": "morelinq/4.4.0",
+      "hashPath": "morelinq.4.4.0.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",

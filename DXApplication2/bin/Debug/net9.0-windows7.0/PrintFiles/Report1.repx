@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="25.1.3.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" DataSourceSchema="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;xs:schema id=&quot;DataSet1&quot; targetNamespace=&quot;http://tempuri.org/DataSet1.xsd&quot; xmlns:mstns=&quot;http://tempuri.org/DataSet1.xsd&quot; xmlns=&quot;http://tempuri.org/DataSet1.xsd&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot; xmlns:msprop=&quot;urn:schemas-microsoft-com:xml-msprop&quot; attributeFormDefault=&quot;qualified&quot; elementFormDefault=&quot;qualified&quot;&gt;&#xD;&#xA;  &lt;xs:element name=&quot;DataSet1&quot; msdata:IsDataSet=&quot;true&quot; msdata:UseCurrentLocale=&quot;true&quot; msprop:Generator_UserDSName=&quot;DataSet1&quot; msprop:Generator_DataSetName=&quot;DataSet1&quot; msprop:EnableTableAdapterManager=&quot;true&quot;&gt;&#xD;&#xA;    &lt;xs:complexType&gt;&#xD;&#xA;      &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;        &lt;xs:element name=&quot;ItemAssignmentDateTable&quot; msprop:Generator_TablePropName=&quot;ItemAssignmentDateTable&quot; msprop:Generator_UserTableName=&quot;ItemAssignmentDateTable&quot; msprop:Generator_RowDeletingName=&quot;ItemAssignmentDateTableRowDeleting&quot; msprop:Generator_RowClassName=&quot;ItemAssignmentDateTableRow&quot; msprop:Generator_RowChangingName=&quot;ItemAssignmentDateTableRowChanging&quot; msprop:Generator_TableVarName=&quot;tableItemAssignmentDateTable&quot; msprop:Generator_RowEvHandlerName=&quot;ItemAssignmentDateTableRowChangeEventHandler&quot; msprop:Generator_RowDeletedName=&quot;ItemAssignmentDateTableRowDeleted&quot; msprop:Generator_RowEvArgName=&quot;ItemAssignmentDateTableRowChangeEvent&quot; msprop:Generator_RowChangedName=&quot;ItemAssignmentDateTableRowChanged&quot; msprop:Generator_TableClassName=&quot;ItemAssignmentDateTableDataTable&quot;&gt;&#xD;&#xA;          &lt;xs:complexType&gt;&#xD;&#xA;            &lt;xs:sequence&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Id&quot; msprop:Generator_UserColumnName=&quot;Id&quot; msprop:Generator_ColumnPropNameInTable=&quot;IdColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;Id&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnId&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Ulid&quot; msprop:Generator_UserColumnName=&quot;Ulid&quot; msprop:Generator_ColumnPropNameInTable=&quot;UlidColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;Ulid&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnUlid&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Price&quot; msprop:Generator_UserColumnName=&quot;Price&quot; msprop:Generator_ColumnPropNameInTable=&quot;PriceColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;Price&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnPrice&quot; type=&quot;xs:decimal&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;EmployeeName&quot; msprop:Generator_UserColumnName=&quot;EmployeeName&quot; msprop:Generator_ColumnPropNameInTable=&quot;EmployeeNameColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;EmployeeName&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnEmployeeName&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;ItemName&quot; msprop:Generator_UserColumnName=&quot;ItemName&quot; msprop:Generator_ColumnPropNameInTable=&quot;ItemNameColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;ItemName&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnItemName&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;ItemId&quot; msprop:Generator_UserColumnName=&quot;ItemId&quot; msprop:Generator_ColumnPropNameInTable=&quot;ItemIdColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;ItemId&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnItemId&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;EmployeeId&quot; msprop:Generator_UserColumnName=&quot;EmployeeId&quot; msprop:Generator_ColumnPropNameInTable=&quot;EmployeeIdColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;EmployeeId&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnEmployeeId&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;AssignmentNumber&quot; msprop:Generator_UserColumnName=&quot;AssignmentNumber&quot; msprop:Generator_ColumnPropNameInTable=&quot;AssignmentNumberColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;AssignmentNumber&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnAssignmentNumber&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;ConditionOnReturn&quot; msprop:Generator_UserColumnName=&quot;ConditionOnReturn&quot; msprop:Generator_ColumnPropNameInTable=&quot;ConditionOnReturnColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;ConditionOnReturn&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnConditionOnReturn&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Notes&quot; msprop:Generator_UserColumnName=&quot;Notes&quot; msprop:Generator_ColumnPropNameInTable=&quot;NotesColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;Notes&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnNotes&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;AssignmentDate&quot; msprop:Generator_UserColumnName=&quot;AssignmentDate&quot; msprop:Generator_ColumnPropNameInTable=&quot;AssignmentDateColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;AssignmentDate&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnAssignmentDate&quot; type=&quot;xs:dateTime&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;ReturnDate&quot; msprop:Generator_UserColumnName=&quot;ReturnDate&quot; msprop:Generator_ColumnPropNameInTable=&quot;ReturnDateColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;ReturnDate&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnReturnDate&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Count&quot; msprop:Generator_UserColumnName=&quot;Count&quot; msprop:Generator_ColumnPropNameInTable=&quot;CountColumn&quot; msprop:Generator_ColumnPropNameInRow=&quot;Count&quot; msprop:Generator_ColumnVarNameInTable=&quot;columnCount&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;            &lt;/xs:sequence&gt;&#xD;&#xA;          &lt;/xs:complexType&gt;&#xD;&#xA;        &lt;/xs:element&gt;&#xD;&#xA;      &lt;/xs:choice&gt;&#xD;&#xA;    &lt;/xs:complexType&gt;&#xD;&#xA;  &lt;/xs:element&gt;&#xD;&#xA;&lt;/xs:schema&gt;" Margins="25, 25, 35, 25" PaperKind="A4" PageWidthF="826.77167" PageHeightF="1169.2914" Version="25.1" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin" HeightF="35" />
+    <Item2 Ref="2" ControlType="DetailBand" Name="Detail" HeightF="25">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRTable" Name="table1" TextAlignment="MiddleCenter" SizeF="776.77167,25" LocationFloat="0,0" Font="Times New Roman, 12pt" Padding="2,2,0,0,100" Borders="All">
+          <Rows>
+            <Item1 Ref="4" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="5" ControlType="XRTableCell" Name="tableCell1" Weight="1.4806219275539387" Multiline="true" Text="tableCell1">
+                  <ExpressionBindings>
+                    <Item1 Ref="6" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[Notes]" />
+                  </ExpressionBindings>
+                </Item1>
+                <Item2 Ref="7" ControlType="XRTableCell" Name="tableCell2" Weight="1.0257478277630043" TextFormatString="{0:yyyy-MM-dd}" Multiline="true" Text="tableCell2">
+                  <ExpressionBindings>
+                    <Item1 Ref="8" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[AssignmentDate]" />
+                  </ExpressionBindings>
+                </Item2>
+                <Item3 Ref="9" ControlType="XRTableCell" Name="tableCell4" Weight="1.1154583221461585" Multiline="true" Text="tableCell4">
+                  <ExpressionBindings>
+                    <Item1 Ref="10" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[AssignmentNumber]" />
+                  </ExpressionBindings>
+                </Item3>
+                <Item4 Ref="11" ControlType="XRTableCell" Name="tableCell5" Weight="0.7987159519957645" TextFormatString="{0:N0}" Multiline="true" Text="tableCell5">
+                  <ExpressionBindings>
+                    <Item1 Ref="12" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[Price]" />
+                  </ExpressionBindings>
+                </Item4>
+                <Item5 Ref="13" ControlType="XRTableCell" Name="tableCell6" Weight="0.579455970541134" Multiline="true" Text="tableCell6">
+                  <ExpressionBindings>
+                    <Item1 Ref="14" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[Count]" />
+                  </ExpressionBindings>
+                </Item5>
+                <Item6 Ref="15" ControlType="XRTableCell" Name="tableCell7" Weight="1" Multiline="true" Text="tableCell7">
+                  <ExpressionBindings>
+                    <Item1 Ref="16" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[ItemName]" />
+                  </ExpressionBindings>
+                </Item6>
+                <Item7 Ref="17" ControlType="XRTableCell" Name="tableCell8" Weight="1.532118368834099" Multiline="true" Text="tableCell8">
+                  <ExpressionBindings>
+                    <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[EmployeeName]" />
+                  </ExpressionBindings>
+                </Item7>
+                <Item8 Ref="19" ControlType="XRTableCell" Name="tableCell3" Weight="0.4678816311659012" Multiline="true" Text="tableCell3">
+                  <ExpressionBindings>
+                    <Item1 Ref="20" EventName="BeforePrint" PropertyName="Text" Expression="[ItemAssignmentDateTable].[Id]" />
+                  </ExpressionBindings>
+                </Item8>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="22" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="25" />
+    <Item4 Ref="23" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="25">
+      <Controls>
+        <Item1 Ref="24" ControlType="XRTable" Name="table2" TextAlignment="MiddleCenter" SizeF="776.77167,25" LocationFloat="0,0" Font="Times New Roman, 14pt, style=Bold" BackColor="Gainsboro" Padding="2,2,0,0,100" Borders="All">
+          <Rows>
+            <Item1 Ref="25" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="26" ControlType="XRTableCell" Name="tableCell9" Weight="1.4806219275539387" Multiline="true" Text="ملاحظات" />
+                <Item2 Ref="27" ControlType="XRTableCell" Name="tableCell10" Weight="1.0257475134613436" Multiline="true" Text="تاريخ الاخراج" />
+                <Item3 Ref="28" ControlType="XRTableCell" Name="tableCell11" Weight="1.1154586364478192" Multiline="true" Text="رقم الاخراج" />
+                <Item4 Ref="29" ControlType="XRTableCell" Name="tableCell12" Weight="0.7987159519957645" Multiline="true" Text="السعر" />
+                <Item5 Ref="30" ControlType="XRTableCell" Name="tableCell13" Weight="0.579455970541134" Multiline="true" Text="العدد" />
+                <Item6 Ref="31" ControlType="XRTableCell" Name="tableCell14" Weight="1" Multiline="true" Text="اسم المادة" />
+                <Item7 Ref="32" ControlType="XRTableCell" Name="tableCell15" Weight="1.5321171116274563" Multiline="true" Text="الاسم" />
+                <Item8 Ref="33" ControlType="XRTableCell" Name="tableCell16" Weight="0.46788288837254366" Multiline="true" Text="ت" />
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="34" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="35" ControlType="PageFooterBand" Name="PageFooter" HeightF="35">
+      <Controls>
+        <Item1 Ref="36" ControlType="XRPageInfo" Name="pageInfo2" PageInfo="DateTime" SizeF="291.28937,23" LocationFloat="0,0" Padding="2,2,0,0,100" />
+        <Item2 Ref="37" ControlType="XRPageInfo" Name="pageInfo1" TextAlignment="MiddleCenter" SizeF="61.666656,23" LocationFloat="351.66666,0" Font="Times New Roman, 14pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="38" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+    </Item5>
+  </Bands>
+</XtraReportsLayoutSerializer>
